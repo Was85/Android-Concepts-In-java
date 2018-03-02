@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">أذكار وتسبيحات </string>
+    <string name="StartUpHeaderName">أذكار وتسبيحات </string>
+    <string name="StartingCounterValue"> 0 0 0 0 </string>
+    <string name="SaveYourTasbiha">حفظ التسبيحات</string>
+    <string name="ShowTasbihHistory">عرض التسبيحات المحفوظة</string>
+    <string name="ClearHistory"> مسح جميع سجل التسبيحات </string>
+    <string name="optionsButton"> خيارات </string>
+    <string name="TasbihatHistoryButton"> التسبيحات المحفوظة</string>
+    <string name="alerDialogTitle"> قائمة الخيارات </string>
+    <string name="alerDialogcountinue"> أستمرار </string>
+    <string name="alerDialogDelete"> حذف </string>
+    <string name="vibrate">التالي</string>
+    <string name="Athkar">أذكار المسلم</string>
+    <string name="AthkaratMorning">أذكار الصباح </string>
+    <string name="AthkaratEvening">أذكار المساء</string>
+    <string name="AthkaratMosque">أذكار دخول المسجد</string>
+    <string name="WakeUpAthkar">أذكار الصباح</string>
+    <string name="sleepAthkar">أذكار قبل النوم</string>
+    <string name="PrayAthkar">أذكار الصلاة</string>
+    <string name="livelihood">أذكار الرزق</string>
+
+
+</resources>

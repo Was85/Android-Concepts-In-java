@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/athkarActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.waseem.splash.athkar"
+    android:background="#EBEBEB">
+
+
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar">
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/morningAthkar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/morningAthkar" />
+
+
+        <Button
+            android:id="@+id/eveningAthkar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:layout_below="@+id/morningAthkar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/eveningAthkar" />
+
+
+        <Button
+            android:id="@+id/mosqueAthkar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_border"
+            android:layout_below="@+id/eveningAthkar"
+            android:text="@string/mosqueAthkar" />
+
+
+        <Button
+            android:id="@+id/wakeupAthkar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/wakeupAthkar"
+            android:background="@drawable/button_border"
+            android:layout_below="@+id/mosqueAthkar"/>
+
+
+        <Button
+            android:id="@+id/sleepAthkar"
+            android:background="@drawable/button_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@id/mosqueAthkar"
+
+            android:text="@string/sleepAthkar" />
+
+
+        <Button
+            android:id="@+id/prayerAthkar"
+            android:background="@drawable/button_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sleepAthkar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/prayerAthkar" />
+
+
+        <Button
+
+            android:id="@+id/livelihood"
+            android:background="@drawable/button_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/prayerAthkar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/livelihoodAthkar" />
+
+
+        <Button
+
+            android:id="@+id/entryHomeAthkar"
+            android:background="@drawable/button_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/livelihood"
+            android:layout_centerHorizontal="true"
+            android:text="@string/entryhomeAthkar" />
+
+        <Button
+
+            android:id="@+id/leavingHomeAthkar"
+            android:background="@drawable/button_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/entryHomeAthkar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/leavinghomeAthkar" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

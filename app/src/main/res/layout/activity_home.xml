@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6CCFF6"
+
+    tools:context="com.example.waseem.splash.HomeActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/igital"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/Screen"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:gravity="center"
+
+        android:text="@string/StartingCounterValue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/increment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/reset"
+        android:layout_marginTop="11dp"
+        android:layout_toLeftOf="@+id/reset"
+        android:layout_toStartOf="@+id/reset"
+        app:srcCompat="@drawable/xxx"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/Screen"
+        android:layout_alignRight="@+id/Screen"
+        android:layout_below="@+id/Screen"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/x"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/count"
+        android:layout_marginTop="55dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/save"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_border"
+            android:text="@string/saveYourTasbiha"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/load"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/TasbihHistory"
+            android:textColor="@android:color/black" />
+        <Button
+            android:id="@+id/athkar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/Athkar"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/clear"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_border"
+        android:text="@string/ClearHistory"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

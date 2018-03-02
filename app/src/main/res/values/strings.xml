@@ -1,0 +1,27 @@
+<resources>
+
+
+    <string name="app_name">Athkar and Tasbihat </string>
+    <string name="StartUpHeaderName">Athkar &amp; Tasbihat </string>
+    <string name="StartingCounterValue"> 0 0 0 0 </string>
+    <string name="saveYourTasbiha">Save Tasbeh</string>
+    <string name="TasbihHistory"> Tasbih History</string>
+    <string name="ClearHistory"> Clear History </string>
+    <string name="optionsButton"> Options </string>
+    <string name="TasbihatHistoryview"> Tasbihat History</string>
+    <string name="alerDialogTitle"> Options List </string>
+    <string name="alerDialogcountinue"> Countinue </string>
+    <string name="alerDialogDelete"> Delete </string>
+    <string name="vibrate">next</string>
+    <string name="Athkar">athkar</string>
+    <string name="morningAthkar">Morning Athkar</string>
+    <string name="eveningAthkar">Evening Athkar</string>
+    <string name="mosqueAthkar">Mosque Athkar</string>
+    <string name="sleepAthkar">Sleep Athkar</string>
+    <string name="wakeupAthkar">WakeUp Athkar</string>
+    <string name="entryhomeAthkar">Entry Home Athkar</string>
+    <string name="leavinghomeAthkar">Leaving Home Athkar</string>
+    <string name="prayerAthkar">Prayer Athkar</string>
+    <string name="livelihoodAthkar">Livelihood Athkar</string>
+    <string name="ErrorMsg">Please Choose Your Athkar From The List...</string>
+</resources>

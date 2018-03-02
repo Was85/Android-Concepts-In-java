@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.waseem.splash.HomeActivity"
+
+    >
+
+    <item
+        android:id="@+id/EN"
+
+        android:title="English"
+
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/AR"
+        android:title="Arabic"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        android:orderInCategory="300"
+        android:title="settingbutton"
+
+        app:showAsAction="always"
+
+        />
+    <item android:title="@string/vibrate"
+        android:id="@+id/vibrate"
+        android:orderInCategory="200"
+        android:icon="@drawable/vibrate"
+        app:showAsAction="always"/>
+
+</menu>
