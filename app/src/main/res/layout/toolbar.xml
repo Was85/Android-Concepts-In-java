@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 
-    android:background="@color/maroon"
+    android:background="@color/grey"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
     app:theme="@style/ThemeOverlay.AppCompat.Dark">
 

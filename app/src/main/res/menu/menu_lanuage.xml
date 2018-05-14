@@ -9,7 +9,8 @@
     <item
         android:id="@+id/EN"
 
-        android:title="English"
+
+        android:title="@string/englishlanguage"
 
         app:showAsAction="never"
 
@@ -17,7 +18,7 @@
 
     <item
         android:id="@+id/AR"
-        android:title="Arabic"
+        android:title="@string/arabiclanguage"
         app:showAsAction="never"
         android:orderInCategory="100"/>
 
@@ -26,7 +27,7 @@
         android:id="@+id/setting"
         android:icon="@drawable/setting"
         android:orderInCategory="300"
-        android:title="settingbutton"
+        android:title="@string/setting_button"
 
         app:showAsAction="always"
 

@@ -1,27 +1,37 @@
 <resources>
 
 
-    <string name="app_name">Athkar and Tasbihat </string>
-    <string name="StartUpHeaderName">Athkar &amp; Tasbihat </string>
+    <string name="app_name">ProtoType App </string>
+    <string name="StartUpHeaderName">Test App </string>
     <string name="StartingCounterValue"> 0 0 0 0 </string>
-    <string name="saveYourTasbiha">Save Tasbeh</string>
-    <string name="TasbihHistory"> Tasbih History</string>
+    <string name="save">Save</string>
+    <string name="History"> History</string>
     <string name="ClearHistory"> Clear History </string>
     <string name="optionsButton"> Options </string>
-    <string name="TasbihatHistoryview"> Tasbihat History</string>
+    <string name="HistoryView"> View History</string>
     <string name="alerDialogTitle"> Options List </string>
     <string name="alerDialogcountinue"> Countinue </string>
     <string name="alerDialogDelete"> Delete </string>
     <string name="vibrate">next</string>
-    <string name="Athkar">athkar</string>
-    <string name="morningAthkar">Morning Athkar</string>
-    <string name="eveningAthkar">Evening Athkar</string>
-    <string name="mosqueAthkar">Mosque Athkar</string>
-    <string name="sleepAthkar">Sleep Athkar</string>
-    <string name="wakeupAthkar">WakeUp Athkar</string>
-    <string name="entryhomeAthkar">Entry Home Athkar</string>
-    <string name="leavinghomeAthkar">Leaving Home Athkar</string>
-    <string name="prayerAthkar">Prayer Athkar</string>
-    <string name="livelihoodAthkar">Livelihood Athkar</string>
-    <string name="ErrorMsg">Please Choose Your Athkar From The List...</string>
+    <string name="Lists">MyLists</string>
+    <string name="list1.">List-1</string>
+    <string name="list2.">List-2</string>
+    <string name="list3.">List-3</string>
+    <string name="list4.">List-4</string>
+    <string name="list5.">List-5</string>
+    <string name="list6.">List-6</string>
+    <string name="list7.">List-7</string>
+    <string name="list8.">List-8</string>
+    <string name="list9.">List-9</string>
+    <string name="ErrorMsg">Please Choose  From The List</string>
+    <string name="startup">Start up</string>
+    <string name="startingInfo"> The Android Test Application implemented numerous Concept in Android and has been done in Java </string>
+    <string name="Counter">  Counter </string>
+    <string name="AvailableList">Lists</string>
+    <string name="guidanceButton"> guidance</string>
+    <string name="AAA">AAA</string>
+    <string name="shareButton">Monetaization</string>
+    <string name="englishlanguage">English</string>
+    <string name="arabiclanguage">Arabic</string>
+    <string name="setting_button">setting</string>
 </resources>

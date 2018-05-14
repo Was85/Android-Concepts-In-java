@@ -12,6 +12,8 @@
             <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
     </style>
 
+
+    // change overflow action bar icon
     <style name="mydef" parent="Theme.AppCompat.Light.DarkActionBar">
 
 
@@ -22,7 +24,10 @@
     </style>
 
 
-    
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
 
 
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="MorningAthkar">
+
+
+        <item>1-  Hey one.</item>
+        <item>1-  Hey two.</item>
+        <item>1-  Hey Three.</item>
+        <item>1-  Hey Four.</item>
+        <item>4-  Hey Five.</item>
+        <item>1-  Hey Six.</item>
+        <item>5-  Hey Seven.</item>
+        <item>1-  Hey Eight.</item>
+        <item>1-  Hey Nine.</item>
+        <item>3-  Hey Ten.</item>
+
+
+
+    </string-array>
+
+
+</resources>

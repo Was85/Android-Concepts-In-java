@@ -16,7 +16,7 @@
 
         android:gravity="center"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
@@ -59,7 +59,7 @@
             android:paddingRight="5dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:text="في ميزان حسناتك"
+            android:text="@string/shareButton"
             android:textStyle="bold" />
 
     </LinearLayout>

@@ -34,7 +34,7 @@ private long splashTimeOut = 4000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                Intent intent = new Intent(MainActivity.this,Menu.class);
                 startActivity(intent);
                 finish();
             }
@@ -42,6 +42,7 @@ private long splashTimeOut = 4000;
 
 
     }
+
 
     public TextView getTextView() {
         return text;

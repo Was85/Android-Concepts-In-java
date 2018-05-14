@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="popUp_Athkar">
+
+
+
+
+        <item>  hello  </item>
+
+
+        <item> hi   </item>
+
+        <item>  heyhey  </item>
+
+
+
+
+    </string-array>
+
+
+</resources>

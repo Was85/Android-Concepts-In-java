@@ -6,6 +6,7 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +20,10 @@ import java.util.HashMap;
 
 public class Fragment extends android.app.Fragment {
     private listviewAdapter adapter;
-    Bundle fragBundel;
+    private Bundle fragBundel;
     private HashMap<String, String> athkarRep;
-    CollapsingToolbarLayout bar;
+    private CollapsingToolbarLayout bar;
+    private Toolbar fragToolbar;
 
     /**
      * Called to have the fragment instantiate its user interface view.
@@ -49,6 +51,34 @@ public class Fragment extends android.app.Fragment {
 
     }
 
+    public void showBackButton() {
+        if (getActivity() instanceof athkar) {
+            fragToolbar = getActivity().findViewById(R.id.toolbarFrag);
+            ((athkar) getActivity()).setSupportActionBar(fragToolbar);
+            ((athkar) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            //
+//
+        }
+    }
+
+    /**
+     * Called when the fragment's activity has been created and this
+     * fragment's view hierarchy instantiated.  It can be used to do final
+     * initialization once these pieces are in place, such as retrieving
+     * views or restoring state.  It is also useful for fragments that use
+     * {@link #setRetainInstance(boolean)} to retain their instance,
+     * as this callback tells the fragment when it is fully associated with
+     * the new activity instance.  This is called after {@link #onCreateView}
+     * and before {@link #onViewStateRestored(Bundle)}.
+     *
+     * @param savedInstanceState If the fragment is being re-created from
+     *                           a previous saved state, this is the state.
+     */
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        showBackButton();
+        super.onActivityCreated(savedInstanceState);
+    }
 
     /**
      * Called immediately after {@link #onCreateView(LayoutInflater, ViewGroup, Bundle)}

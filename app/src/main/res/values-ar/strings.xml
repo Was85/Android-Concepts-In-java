@@ -1,26 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">أذكار وتسبيحات </string>
-    <string name="StartUpHeaderName">أذكار وتسبيحات </string>
+    <string name="app_name">أختبار </string>
+    <string name="StartUpHeaderName">برنامج أختبار </string>
     <string name="StartingCounterValue"> 0 0 0 0 </string>
-    <string name="SaveYourTasbiha">حفظ التسبيحات</string>
-    <string name="ShowTasbihHistory">عرض التسبيحات المحفوظة</string>
-    <string name="ClearHistory"> مسح جميع سجل التسبيحات </string>
+    <string name="save">حفظ </string>
+    <string name="History">عرض السجلات المحفوظة</string>
+    <string name="ClearHistory"> مسح جميع السجلات المحفوظة </string>
+
     <string name="optionsButton"> خيارات </string>
-    <string name="TasbihatHistoryButton"> التسبيحات المحفوظة</string>
+    <string name="HistoryView"> عرض </string>
     <string name="alerDialogTitle"> قائمة الخيارات </string>
     <string name="alerDialogcountinue"> أستمرار </string>
     <string name="alerDialogDelete"> حذف </string>
     <string name="vibrate">التالي</string>
-    <string name="Athkar">أذكار المسلم</string>
-    <string name="AthkaratMorning">أذكار الصباح </string>
-    <string name="AthkaratEvening">أذكار المساء</string>
-    <string name="AthkaratMosque">أذكار دخول المسجد</string>
-    <string name="WakeUpAthkar">أذكار الصباح</string>
-    <string name="sleepAthkar">أذكار قبل النوم</string>
-    <string name="PrayAthkar">أذكار الصلاة</string>
-    <string name="livelihood">أذكار الرزق</string>
+    <string name="Lists">القوائم</string>
+
+    <string name="list1.">القائمة الاولى  </string>
+    <string name="list2.">القائمة الثانية</string>
+    <string name="list3.">القائمة الثالثة</string>
+    <string name="list4.">القائمة الرابعة</string>
+    <string name="list5.">القائمة الخامسة</string>
+    <string name="list6.">القائمة السادسة</string>
+    <string name="list7.">القائمة السابعة</string>
+    <string name="list8.">القائمة الثامنة</string>
+    <string name="list9.">القائمة التاسعة </string>
+    <string name="ErrorMsg">]رجى أختيار ألذكر المطلوب من القائمة.</string>
+    <string name="startup">البداية </string>
+    <string name="startingInfo">برنامج بسيط لتوضيح بعض الخصائص في الاندرويد</string>
+    <string name="Counter">المسبحة </string>
+    <string name="AvailableList">قوائم</string>
+    <string name="guidanceButton">  تعليمات </string>
+    <string name="AAA">اختيار عام </string>
+
+    <string name="shareButton">استفادة مالية</string>
+
+    <string name="englishlanguage">أللغة الانكليزية</string>
+    <string name="arabiclanguage">أللغة العربية</string>
+    <string name="setting_button">ضبط</string>
 
 
 </resources>
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:orientation="vertical"
+    tools:context="com.example.waseem.splash.Guidance">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello Folks Text is here and intent to add more textview below me in while !"
+    android:textSize="20sp"
+    android:layout_marginTop="20dp"
+    android:textColor="@android:color/white"/>
+
+
+
+
+
+
+</LinearLayout>

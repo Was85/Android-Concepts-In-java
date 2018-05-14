@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="afterPrayergAthkar">
+
+
+
+        <item>1-   one.</item>
+        <item>1-   two.</item>
+        <item>4-   Three.</item>
+        <item>1-   Four.</item>
+        <item>2-   Five.</item>
+
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="livelhoodAthkar">
+
+
+
+        <item>1-   one.</item>
+        <item>3-   two.</item>
+        <item>1-   Three.</item>
+
+
+
+
+
+    </string-array>
+
+
+</resources>

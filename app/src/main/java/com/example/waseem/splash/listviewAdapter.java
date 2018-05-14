@@ -4,14 +4,12 @@ package com.example.waseem.splash;
  */
 
 import android.content.Context;
-import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,8 +18,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static android.view.Gravity.CENTER;
 
 public class listviewAdapter extends RecyclerView.Adapter<listviewAdapter.MyViewHolder> {
 
@@ -32,7 +28,6 @@ public class listviewAdapter extends RecyclerView.Adapter<listviewAdapter.MyView
     private View inflatedView;
 
     public List<Map.Entry<String, String>> mData = Collections.emptyList();
-    private View toastView;
 
 
     public listviewAdapter(HashMap<String, String> athkarRep, Context activity) {
@@ -141,8 +136,7 @@ public class listviewAdapter extends RecyclerView.Adapter<listviewAdapter.MyView
             super(v);
             textThikr = ((TextView) v.findViewById(R.id.thikrText));
             repThikr = ((TextView) v.findViewById(R.id.repetations));
-            toastView = inflater.inflate(R.layout.toast_layout, (ViewGroup) v.getParent(), false);
-            toastText = ((TextView) toastView.findViewById(R.id.ToastText));
+
             repThikr.setOnClickListener(this);
 
         }

@@ -3,12 +3,13 @@
     package="com.example.waseem.splash">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
@@ -22,12 +23,22 @@
         </activity>
         <activity
             android:name=".HomeActivity"
+            android:parentActivityName=".Menu"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.Parent_Activity"
+                android:value=".Menu" />
+        </activity>
         <activity
             android:name=".athkar"
+            android:parentActivityName=".Menu"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.Parent_Activity"
+                android:value=".Menu" />
+        </activity>
         <activity
             android:name=".dataBaseActivity"
             android:parentActivityName=".HomeActivity"
@@ -35,16 +46,24 @@
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.Parent_Activity"
-                android:value=".HomeActivity"></meta-data>
+                android:value=".HomeActivity" />
         </activity>
-
-
         <activity
             android:name=".ListOfTheAthkar"
-            android:theme="@style/AppTheme"
-            >
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".Auto_Athkar" />
 
-        </activity>
+        <receiver
+            android:name=".MyAlarmReceiver"
+            android:process=":remote"></receiver>
+
+        <service android:name=".MyTestService" />
+
+        <activity android:name=".Guidance"></activity>
     </application>
 
 </manifest>
